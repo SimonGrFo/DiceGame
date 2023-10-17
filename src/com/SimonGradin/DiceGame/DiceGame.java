@@ -34,7 +34,7 @@ public class DiceGame {
         System.out.println(player1Name + " your score is " + player1sScore);
         System.out.println(player2Name + " your score is " + player2sScore);
 
-        // Determines the winner, or if there is no winner determines if it is a tie and announces it.
+        // Determines the winner, or if there is no winner determines it is a tie.
         if (player1sScore > player2sScore) {
             System.out.println(player1Name + " wins!");
         } else if (player2sScore > player1sScore) {
